@@ -1,0 +1,107 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+.mainStateCont {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ratingBody,
+.thankState {
+  height: auto;
+  width: 25%;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  border-radius: 25px;
+  font-size: 15px;
+}
+#starImg {
+  width: 16px;
+}
+.circleBack {
+  width: 50px;
+  padding: 13px;
+  text-align: center;
+  background-color: hsl(207, 12%, 34%);
+  border-radius: 50%;
+}
+.num {
+  width: 15%;
+  padding: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+.num:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+.textHead {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+#submitBtn {
+  background-color: hsl(25, 97%, 53%);
+  font-weight: 700;
+  margin-top: 25px;
+}
+#submitBtn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.ratingBox {
+  width: 60%;
+  margin: auto;
+  background-color: hsl(207, 12%, 34%);
+  color: hsl(25, 97%, 53%);
+  padding: 8px 12px;
+  border-radius: 16px;
+  font-size: 15px;
+}
+.attribution {
+  color: white;
+  width: 100%;
+  font-size: 11px;
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+}
+.attribution a {
+  color: red;
+}
+
+.disappear {
+  display: none;
+}
+
+.selected {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ratingBody,
+  .thankState {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .ratingBody,
+  .thankState {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .ratingBody,
+  .thankState {
+    width: 90%;
+  }
+}
