@@ -31,8 +31,8 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/ChiragJain7300/Interactive-rating-component
+- Live Site URL: https://chiragjain7300.github.io/Interactive-rating-component
 
 ## My process
 
